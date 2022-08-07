@@ -6,7 +6,7 @@ Clear();
 
 string[] M;
 WriteLine("Введите массив строк через пробел");
-string unknown = Console.ReadLine();
+string unknown = ReadLine();
 M = unknown.Split(' ');
 var result = new string[M .Length];
 var size = 0;
